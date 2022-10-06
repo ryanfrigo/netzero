@@ -3,7 +3,7 @@ import json
 import pandas as pd
 from datetime import datetime
 
-NAME = "Equinix: NetZero"
+NAME = "NetZero"
 
 #config
 st.set_page_config(
