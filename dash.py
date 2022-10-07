@@ -53,6 +53,10 @@ average_pue_df = join_columns(mk2, mk2m, "Average PUE")
 st.text("Average PUE")
 st.line_chart(average_pue_df)
 
+average_pue_df = join_columns(mk2, mk2m, "Average TUE")
+st.text("Average TUE")
+st.line_chart(average_pue_df)
+
 total_load_df = join_columns(mk2, mk2m, "Total load (MW)")
 st.text("Total load (MW)")
 st.line_chart(total_load_df)
@@ -70,5 +74,3 @@ st.markdown("____")
 # notes.markdown("""
 
 # """)
-
-st.markdown(f"© Equinix {datetime.today().year}")
