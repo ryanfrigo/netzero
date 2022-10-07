@@ -24,6 +24,7 @@ st.markdown(hide_streamlit_style, unsafe_allow_html=True)
 # HEADER
 st.title(NAME)
 st.text("forecasting the effects of the MK2 Modified Datacenter Design")
+st.text("We are also adding onsite power generation analysis to the tool. This will pave the pathway to NetZero and NetNegative targets.")
 st.markdown("____")
 
 # SIDEBAR
@@ -69,5 +70,3 @@ st.markdown("____")
 # notes.markdown("""
 
 # """)
-
-st.markdown(f"© Equinix {datetime.today().year}")
