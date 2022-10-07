@@ -70,3 +70,5 @@ st.markdown("____")
 # notes.markdown("""
 
 # """)
+
+st.markdown(f"© Equinix {datetime.today().year}")
